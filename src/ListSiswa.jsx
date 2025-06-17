@@ -1,4 +1,3 @@
-import { useState } from 'react';
 import Card from './card'
 
 const listSiswa = [
