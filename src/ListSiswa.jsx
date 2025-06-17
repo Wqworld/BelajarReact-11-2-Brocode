@@ -1,4 +1,3 @@
-import { useState } from 'react';
 import Card from './card'
 
 const listSiswa = [
@@ -57,11 +56,8 @@ const listSiswa = [
 
   export default function DisplayListSiswa(props){   
     return (
-<<<<<<< HEAD
     <div className={`grid xl:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-4 ${props.showSiswa ? '' : 'hidden'}`}>
-=======
-    <div className="grid xl:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-4">
->>>>>>> 89f293c65ec25a9ebe3cbd46cf76de5b678b129a
+
       {props.isShow ? listSiswaAktif.map((siswa, i) => (
         <Card key={i} nama={siswa.nama} aktif={siswa.aktif} deks={siswa.deks}/>
       )) 
