@@ -32,7 +32,11 @@ function App() {
       <Mobil/> */}
       
       <Makanan/>
-      <DisplayListSiswa/>
+      <br></br>
+
+      
+      <Mobil/>
+
     </>
   );
 }
