@@ -50,6 +50,8 @@ export default function Mobil(){
         const model = form.model.value;
 
         setMobil(m => [...mobil, {merek: merek , tahun: tahun , model:model}])
+
+        form.reset()
     }
 
     function HandleHapusData(index){
@@ -61,7 +63,7 @@ export default function Mobil(){
             <ul>
                 {
                     mobil.map((m,i) => 
-                    <li key={i} className="bg-blue-300 m-2 rounded-sm" onClick={() => HandleHapusData(i)}>Tahun : {m.tahun} Merek : {m.merek} Model : {m.model}</li>
+                    <li key={i} className="bg-blue-300 m-2 rounded-sm cursor-pointer" onClick={() => HandleHapusData(i)} >Tahun : {m.tahun} Merek : {m.merek} Model : {m.model}</li>
                     )
                 }
             </ul>
