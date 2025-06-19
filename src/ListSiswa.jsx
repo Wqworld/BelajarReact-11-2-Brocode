@@ -51,7 +51,7 @@ const listSiswa = [
 
   const listSiswaAktif = listSiswa.filter(siswa => siswa.aktif)
   const listSiswaTidakAktif = listSiswa.filter(siswa => siswa.aktif == false)
-  console.log(listSiswaTidakAktif)
+
   
 
   export default function DisplayListSiswa(props){   
