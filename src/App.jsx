@@ -12,6 +12,7 @@ import ColorPicker from './ColorPicker';
 import Mobil from './Mobil';
 import Makanan from './Makanan';
 import ToDoList from './ToDoList';
+import UseEffect from './UseEffect';
 
 function App() {
   const [showAktif, setShowAktif] = useState(false);
@@ -30,14 +31,17 @@ function App() {
       <Increment/>  
       <InputOnChange/>
       <ColorPicker/>
-      <Mobil/> */}
+      <Mobil/>
       
-      {/* <Makanan/> */}
+      <Makanan/>
 
       
       <Mobil/>
       <br></br>
-      <ToDoList/>
+      <ToDoList/> */}
+
+        <UseEffect/>
+
 
     </>
   );
